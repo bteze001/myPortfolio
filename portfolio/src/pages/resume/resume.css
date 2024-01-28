@@ -1,0 +1,33 @@
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  margin-top: var(--spacing);
+  padding-bottom: var(--spacing);
+  color: white;
+}
+
+.brand {
+  font-size: 32px;
+  color: var(--text-color);
+  padding: var(--spacing);
+  margin: var(--sm-spacing);
+  text-align: center;
+}
+
+.resume-link {
+
+  font-size: 15px;
+  color: white;
+  padding: auto;
+  margin: auto;
+  text-align: center;
+  transition: color 0.3s ease;
+
+}
+
+.resume-link:hover {
+
+  color: #72a3c3;
+}

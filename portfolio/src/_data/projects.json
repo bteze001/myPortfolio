@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Student Record Management",
+    "description": "Manage students record efficently",
+    "image": "/projectImages/Record.png",
+    "body": "The Student Record Management System is a console-based C++ application crafted to efficiently manage student records through seamless file I/O operations. This project empowers users with a range of functionalities, including adding new student records, deleting entries, displaying a comprehensive list of students, searching for specific students, and updating student information.\n The system leverages the simplicity of a user-friendly console interface, making data entry and retrieval an intuitive process. The modular system architecture showcases strong problem-solving skills, allowing for easy maintenance and scalability.",
+    "technologies": ["C++"],
+    "github": "https://github.com/bteze001/student-management-system.git",
+    "bgcolor": "var(--hl2-color)",
+    "id": "1"
+  },
+
+  {
+    "title": "Weather Integrated Task Scheduler",
+    "description": "Task scheduler",
+    "image": "/projectImages/weather.png",
+    "image2": "/projectImages/storm.jpeg",
+    "image3": "/projectImages/weather3.png",
+    "technologies": ["C++", "API"],
+    "body": "This project is a console based C++ application designed to enhance users time management and organization. It allows users to schedule events, manage tasks efficiently, and view weather inofrmation of their location, all within a secure and user-friendly console interface.\n The application provides a secure login system, allowing users to customize thier profiles, change passwords and plan their activites intelligently based on current weather conditions. \n This application leverages the OpenWeatherMap API to deliver real-time weather data for any location. Users can view current conditions including temperature, and humidity.\n",
+    "github": "https://gitfront.io/r/bteze001/qES4gBbZYqdS/Weather-Integrated-Task-Scheduler/",
+    "bgcolor": "var(--hl-color)",
+    "id": "2"
+  },
+
+  {
+    "title": "Tic-Tac-Toe Game",
+    "description": "A classic Tic-Tac-Toe game",
+    "image": "/projectImages/Tic-Tac-Toe.png",
+    "image2": "/projectImages/tic-tac-toe.jpeg",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "body": "This project is a simple implementation of the classic Tic-Tac-Toe game. It allows two players to take turns making moves and checks for a winner or a tie after each move. The game board is displayed using HTML and styled with CSS, while the logic and interactivity are handled with JavaScript.",
+    "github": "https://github.com/bteze001/Tic-Tac-Toe.git",
+    "deployed": "https://bteze001.github.io/Tic-Tac-Toe/",
+    "bgcolor": "#CCB193",
+    "id": "3"
+  }
+]
+
+
+
+  

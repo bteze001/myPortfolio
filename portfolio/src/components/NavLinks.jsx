@@ -72,16 +72,16 @@ const NavLinks = () => {
           </NavLink>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 2.2, duration: 0.5, type: "spring" }}
         >
           {/* Contact link */}
-          <NavLink to="/resume" onClick={() => setIsMenuOpen(false)}>
+          {/* <NavLink to="/resume" onClick={() => setIsMenuOpen(false)}>
             Resume
           </NavLink>
-        </motion.div>
+        // </motion.div> */}
 
         <motion.div
           initial={{ x: -100, opacity: 0 }}

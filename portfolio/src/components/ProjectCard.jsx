@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
 import { FiArrowUpRight } from "react-icons/fi";
-import Image from "./Image";
+// import Image from "./Image";
 
 /**
  * Represents a project card component.
@@ -47,7 +47,7 @@ const ProjectCard = ({ title, image, color, id }) => {
             </span>
           </div>
           <div className="imageContainer col-6 d-flex align-items-center justify-content-center">
-            <Image src={image} alt="Laptop displaying the application" />
+            {/* <Image src={image} alt="Laptop displaying the application" /> */}
           </div>
         </div>
       </motion.div>

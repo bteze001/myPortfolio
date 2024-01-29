@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import PageHeader from "../../../components/PageHeader";
 import PageNotFound from "../../404/PageNotFound";
 import Button from "../../../components/Button";
-import Image from "../../../components/Image";
+// import Image from "../../../components/Image";
 import projects from "../../../_data/projects.json";
 //import Footer from "../../../components/Footer";
 
@@ -44,7 +44,7 @@ const ProjectDetails = () => {
           <div className="row">
             <div className="col-12 col-xl-4 projectImage">
               {/* Display the project image */}
-              <Image src={project.image2} alt={project.name} opacity="0.5" />
+{/*               <Image src={project.image2} alt={project.name} opacity="0.5" /> */}
             </div>
             <div className="col-12 col-xl-8 projectBodyContainer">
               <div className="tech">

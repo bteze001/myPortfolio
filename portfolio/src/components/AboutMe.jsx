@@ -56,7 +56,7 @@ const AboutMe = ({ name }) => {
             <motion.div className="contentContainer" variants={staggerVariants}>
               {/* Display greeting and job title with animation */}
               <motion.h4 variants={paragraphVariants}>Hello! 👋🏻</motion.h4>
-              <motion.h5 variants={paragraphVariants}>A passionate third-year Computer Science student pursuing a Bachelors degree at the University of California, Riverside.</motion.h5>
+              <motion.h5 variants={paragraphVariants}>I am a third-year Computer Science student pursuing a Bachelors degree at the University of California, Riverside.</motion.h5>
 
               {/* Display content description with animation */}
               <motion.div
@@ -67,7 +67,7 @@ const AboutMe = ({ name }) => {
               >
                 {/* Paragraphs with animation */}
                 <motion.p variants={paragraphVariants}>
-                  My academic pursuits have equipped me with a strong foundation in C ++ to develop and implement complex algorithms, data structures, 
+                  I have a strong foundation in C ++ to develop and implement complex algorithms, data structures, 
                   and software development. 
                 </motion.p>
                 <br />
